@@ -11,6 +11,7 @@
 
 h1 {
     font-size: 6rem;
+    color: black;
 }
 
 .buttons {
@@ -43,4 +44,12 @@ h1 {
 
 .rest:active, .add:active {
     transform: scale(0.9);
+}
+
+.negative {
+    color: red;
+}
+
+.positive {
+    color: green
 }

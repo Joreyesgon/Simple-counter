@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { count } from 'yargs';
 import './counter.css'
 
 const Counter = () => {
