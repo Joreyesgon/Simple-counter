@@ -1,0 +1,46 @@
+.myCounter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    background-color: rgb(193, 194, 196);
+    color: rgb(212, 224, 229);
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.rest, .add {
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+    font-weight: bold;
+    font-size: 2rem;
+    color: inherit;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+.rest:hover {
+    background-color: red
+}
+
+.add:hover{
+    background-color: green;
+}
+
+.rest:active, .add:active {
+    transform: scale(0.9);
+}
