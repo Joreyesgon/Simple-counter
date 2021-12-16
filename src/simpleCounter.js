@@ -12,8 +12,10 @@ const Counter = () => {
         setNumber(number - 1);
     };
 
+    const initialNumber = number > 0 ? "positive" : number < 0 ? "negative" : null 
+
     return (<div className="myCounter">
-        <h1>{number}</h1>
+        <h1 className={initialNumber}>{number}</h1>
         <div className="buttons">
             <button className="rest" onClick={restNumber}>-</button>
             <button className="add" onClick={addNumber}>+</button>
